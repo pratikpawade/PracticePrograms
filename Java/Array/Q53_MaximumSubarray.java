@@ -7,7 +7,7 @@ class Solution {
             max_res = Math.max(max_res , cur);
 
             if(cur < 0)
-            cur = 0;
+                cur = 0;
         }
         return max_res;
     }
